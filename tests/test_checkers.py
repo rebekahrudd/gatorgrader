@@ -1,6 +1,5 @@
 """Tests for the loading, verification, and use of plugin-based checkers."""
 
-
 from gator import arguments
 from gator import checkers
 
