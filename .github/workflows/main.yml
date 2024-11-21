@@ -78,8 +78,8 @@ jobs:
           poetry config virtualenvs.in-project true
           poetry env info
       # - name: Install dependencies
-      #   run: poetry install --no-interaction --no-ansi
-      # - name: Execute tests
+        run: poetry install --no-interaction --no-ansi
+      - name: Execute tests
         # We need to ensure that the cover-win script is run for Windows, so
         # this Action runs different commands based on the runner's operating
         # system.
